@@ -3,7 +3,7 @@
 
 <!--Navbar-->
     <header>
-        <Navbar />
+        <NavbarPage />
     </header>
 <!-- End Navbar-->
 
@@ -224,10 +224,10 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
+import NavbarPage from '../components/NavbarPage.vue'
 export default {
     components : {
-        Navbar,
+        NavbarPage,
     },
     data (){
         return {

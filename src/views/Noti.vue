@@ -4,7 +4,7 @@
 
 <!--Navbar-->
     <header>
-      <Navbar />
+      <NavbarPage />
     </header>
 <!--End Navbar-->
 
@@ -140,10 +140,10 @@
 
 <script>
 import PopupChat from '../components/PopupChat.vue'
-import Navbar from '../components/Navbar.vue'
+import NavbarPage from '../components/NavbarPage.vue'
 export default {
 components : {
-  Navbar,
+  NavbarPage,
   PopupChat,
 },
 data () {

@@ -3,7 +3,7 @@
 
 <!--Navbar-->
 <header>
-  <Navbar />
+  <NavbarPage />
 </header>
 <!--End Navbar-->
 
@@ -95,13 +95,13 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
+import NavbarPage from '../components/NavbarPage.vue'
 import { LongdoMap } from 'longdo-map-vue'
 LongdoMap.init('a5667edcd83e5ddc5babcef19683db20')
 import PopupChat from '../components/PopupChat.vue'
 export default {
   components : {
-        Navbar,
+        NavbarPage,
         LongdoMap,
         PopupChat,
     },

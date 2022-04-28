@@ -4,7 +4,7 @@
 
 <!-- Navbar-->
    <header>
-      <Navbar />
+      <NavbarPage />
  </header>
 
 <!-- End Navbar-->
@@ -176,14 +176,14 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
+import NavbarPage from '../components/NavbarPage.vue'
 import DropdownCatagory from '../components/DropdownCatagory.vue'
 import PopupChat from '../components/PopupChat.vue'
 export default {
     name : 'catagory',
 
     components :{
-        Navbar,
+        NavbarPage,
         DropdownCatagory,
         PopupChat
     }, 

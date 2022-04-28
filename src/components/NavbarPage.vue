@@ -81,7 +81,7 @@
 import Dropdown from './Dropdown.vue'
 
 export default {
-    name : 'NavbarNew',
+    name : 'NavbarPage',
     components : {
         Dropdown,
        

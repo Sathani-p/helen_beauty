@@ -2,7 +2,7 @@
   <div class="shoppingcart">
 
       <header>
-         <Navbar />
+         <NavbarPage />
         </header>
          <div class = "header1">
        <i class="fas fa-home">
@@ -102,11 +102,11 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
+import NavbarPage from '../components/NavbarPage.vue'
 import PopupChat from '../components/PopupChat.vue'
 export default {
     components : {
-        Navbar,
+        NavbarPage,
         PopupChat
     },
     data (){
